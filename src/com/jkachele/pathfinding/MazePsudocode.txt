@@ -1,0 +1,16 @@
+FrontierCells//Cells to be evaluated
+
+set all cells to obstacles
+set cell[0][0] to blank
+calculate all valid cells that are 2 away from cell [0][0]
+    if the cell is an obstacle - add cell to frontierCells
+
+while frontierCells is not empty:
+    pick random cell from FrontierCells to be current cell
+
+    find all cells 2 away from the current cell that is blank
+        set the cell between the current cell and the blank cell to blank
+
+    calculate the FrontierCells from the current cell
+
+    remove the current cell from the frontierCells
