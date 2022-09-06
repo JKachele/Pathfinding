@@ -1,3 +1,5 @@
+*From Sebastian Lague's YpuTube Tutorial on A* Pathfinding
+
 OPEN //the set of nodes to be evaluated
 CLOSED //the set of nodes already evaluated
 add the start node to OPEN
