@@ -1,4 +1,4 @@
-*From Sebastian Lague's YpuTube Tutorial on A* Pathfinding
+*From Sebastian Lague's YouTube Tutorial on A* Pathfinding
 
 OPEN //the set of nodes to be evaluated
 CLOSED //the set of nodes already evaluated
