@@ -24,7 +24,7 @@ public class Main {
     private static String title = "";
     private static int titleLength = 0;
 
-    private static final int MAX_FPS = 2000;
+    private static final int MAX_FPS = 60;
     private static final int[] defaultWindowSize  = {800, 600};
     private static final int[] defaultGridSize = {60, 40};
 
